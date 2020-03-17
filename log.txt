@@ -1,0 +1,1143 @@
+checkpoint's type: <class 'collections.OrderedDict'>
+isDataParallel: False
+load model success. 
+graph(%input0 : Long(1, 45),
+      %input1 : Float(396, 256),
+      %embed.0.weight : Float(6532, 256),
+      %embed.1.pe : Float(1, 5000, 256),
+      %decoders.0.self_attn.linear_q.weight : Float(256, 256),
+      %decoders.0.self_attn.linear_q.bias : Float(256),
+      %decoders.0.self_attn.linear_k.weight : Float(256, 256),
+      %decoders.0.self_attn.linear_k.bias : Float(256),
+      %decoders.0.self_attn.linear_v.weight : Float(256, 256),
+      %decoders.0.self_attn.linear_v.bias : Float(256),
+      %decoders.0.self_attn.linear_out.weight : Float(256, 256),
+      %decoders.0.self_attn.linear_out.bias : Float(256),
+      %decoders.0.src_attn.linear_q.weight : Float(256, 256),
+      %decoders.0.src_attn.linear_q.bias : Float(256),
+      %decoders.0.src_attn.linear_k.weight : Float(256, 256),
+      %decoders.0.src_attn.linear_k.bias : Float(256),
+      %decoders.0.src_attn.linear_v.weight : Float(256, 256),
+      %decoders.0.src_attn.linear_v.bias : Float(256),
+      %decoders.0.src_attn.linear_out.weight : Float(256, 256),
+      %decoders.0.src_attn.linear_out.bias : Float(256),
+      %decoders.0.feed_forward.w_1.weight : Float(2048, 256),
+      %decoders.0.feed_forward.w_1.bias : Float(2048),
+      %decoders.0.feed_forward.w_2.weight : Float(256, 2048),
+      %decoders.0.feed_forward.w_2.bias : Float(256),
+      %decoders.0.norm1.weight : Float(256),
+      %decoders.0.norm1.bias : Float(256),
+      %decoders.0.norm2.weight : Float(256),
+      %decoders.0.norm2.bias : Float(256),
+      %decoders.0.norm3.weight : Float(256),
+      %decoders.0.norm3.bias : Float(256),
+      %decoders.1.self_attn.linear_q.weight : Float(256, 256),
+      %decoders.1.self_attn.linear_q.bias : Float(256),
+      %decoders.1.self_attn.linear_k.weight : Float(256, 256),
+      %decoders.1.self_attn.linear_k.bias : Float(256),
+      %decoders.1.self_attn.linear_v.weight : Float(256, 256),
+      %decoders.1.self_attn.linear_v.bias : Float(256),
+      %decoders.1.self_attn.linear_out.weight : Float(256, 256),
+      %decoders.1.self_attn.linear_out.bias : Float(256),
+      %decoders.1.src_attn.linear_q.weight : Float(256, 256),
+      %decoders.1.src_attn.linear_q.bias : Float(256),
+      %decoders.1.src_attn.linear_k.weight : Float(256, 256),
+      %decoders.1.src_attn.linear_k.bias : Float(256),
+      %decoders.1.src_attn.linear_v.weight : Float(256, 256),
+      %decoders.1.src_attn.linear_v.bias : Float(256),
+      %decoders.1.src_attn.linear_out.weight : Float(256, 256),
+      %decoders.1.src_attn.linear_out.bias : Float(256),
+      %decoders.1.feed_forward.w_1.weight : Float(2048, 256),
+      %decoders.1.feed_forward.w_1.bias : Float(2048),
+      %decoders.1.feed_forward.w_2.weight : Float(256, 2048),
+      %decoders.1.feed_forward.w_2.bias : Float(256),
+      %decoders.1.norm1.weight : Float(256),
+      %decoders.1.norm1.bias : Float(256),
+      %decoders.1.norm2.weight : Float(256),
+      %decoders.1.norm2.bias : Float(256),
+      %decoders.1.norm3.weight : Float(256),
+      %decoders.1.norm3.bias : Float(256),
+      %decoders.2.self_attn.linear_q.weight : Float(256, 256),
+      %decoders.2.self_attn.linear_q.bias : Float(256),
+      %decoders.2.self_attn.linear_k.weight : Float(256, 256),
+      %decoders.2.self_attn.linear_k.bias : Float(256),
+      %decoders.2.self_attn.linear_v.weight : Float(256, 256),
+      %decoders.2.self_attn.linear_v.bias : Float(256),
+      %decoders.2.self_attn.linear_out.weight : Float(256, 256),
+      %decoders.2.self_attn.linear_out.bias : Float(256),
+      %decoders.2.src_attn.linear_q.weight : Float(256, 256),
+      %decoders.2.src_attn.linear_q.bias : Float(256),
+      %decoders.2.src_attn.linear_k.weight : Float(256, 256),
+      %decoders.2.src_attn.linear_k.bias : Float(256),
+      %decoders.2.src_attn.linear_v.weight : Float(256, 256),
+      %decoders.2.src_attn.linear_v.bias : Float(256),
+      %decoders.2.src_attn.linear_out.weight : Float(256, 256),
+      %decoders.2.src_attn.linear_out.bias : Float(256),
+      %decoders.2.feed_forward.w_1.weight : Float(2048, 256),
+      %decoders.2.feed_forward.w_1.bias : Float(2048),
+      %decoders.2.feed_forward.w_2.weight : Float(256, 2048),
+      %decoders.2.feed_forward.w_2.bias : Float(256),
+      %decoders.2.norm1.weight : Float(256),
+      %decoders.2.norm1.bias : Float(256),
+      %decoders.2.norm2.weight : Float(256),
+      %decoders.2.norm2.bias : Float(256),
+      %decoders.2.norm3.weight : Float(256),
+      %decoders.2.norm3.bias : Float(256),
+      %decoders.3.self_attn.linear_q.weight : Float(256, 256),
+      %decoders.3.self_attn.linear_q.bias : Float(256),
+      %decoders.3.self_attn.linear_k.weight : Float(256, 256),
+      %decoders.3.self_attn.linear_k.bias : Float(256),
+      %decoders.3.self_attn.linear_v.weight : Float(256, 256),
+      %decoders.3.self_attn.linear_v.bias : Float(256),
+      %decoders.3.self_attn.linear_out.weight : Float(256, 256),
+      %decoders.3.self_attn.linear_out.bias : Float(256),
+      %decoders.3.src_attn.linear_q.weight : Float(256, 256),
+      %decoders.3.src_attn.linear_q.bias : Float(256),
+      %decoders.3.src_attn.linear_k.weight : Float(256, 256),
+      %decoders.3.src_attn.linear_k.bias : Float(256),
+      %decoders.3.src_attn.linear_v.weight : Float(256, 256),
+      %decoders.3.src_attn.linear_v.bias : Float(256),
+      %decoders.3.src_attn.linear_out.weight : Float(256, 256),
+      %decoders.3.src_attn.linear_out.bias : Float(256),
+      %decoders.3.feed_forward.w_1.weight : Float(2048, 256),
+      %decoders.3.feed_forward.w_1.bias : Float(2048),
+      %decoders.3.feed_forward.w_2.weight : Float(256, 2048),
+      %decoders.3.feed_forward.w_2.bias : Float(256),
+      %decoders.3.norm1.weight : Float(256),
+      %decoders.3.norm1.bias : Float(256),
+      %decoders.3.norm2.weight : Float(256),
+      %decoders.3.norm2.bias : Float(256),
+      %decoders.3.norm3.weight : Float(256),
+      %decoders.3.norm3.bias : Float(256),
+      %decoders.4.self_attn.linear_q.weight : Float(256, 256),
+      %decoders.4.self_attn.linear_q.bias : Float(256),
+      %decoders.4.self_attn.linear_k.weight : Float(256, 256),
+      %decoders.4.self_attn.linear_k.bias : Float(256),
+      %decoders.4.self_attn.linear_v.weight : Float(256, 256),
+      %decoders.4.self_attn.linear_v.bias : Float(256),
+      %decoders.4.self_attn.linear_out.weight : Float(256, 256),
+      %decoders.4.self_attn.linear_out.bias : Float(256),
+      %decoders.4.src_attn.linear_q.weight : Float(256, 256),
+      %decoders.4.src_attn.linear_q.bias : Float(256),
+      %decoders.4.src_attn.linear_k.weight : Float(256, 256),
+      %decoders.4.src_attn.linear_k.bias : Float(256),
+      %decoders.4.src_attn.linear_v.weight : Float(256, 256),
+      %decoders.4.src_attn.linear_v.bias : Float(256),
+      %decoders.4.src_attn.linear_out.weight : Float(256, 256),
+      %decoders.4.src_attn.linear_out.bias : Float(256),
+      %decoders.4.feed_forward.w_1.weight : Float(2048, 256),
+      %decoders.4.feed_forward.w_1.bias : Float(2048),
+      %decoders.4.feed_forward.w_2.weight : Float(256, 2048),
+      %decoders.4.feed_forward.w_2.bias : Float(256),
+      %decoders.4.norm1.weight : Float(256),
+      %decoders.4.norm1.bias : Float(256),
+      %decoders.4.norm2.weight : Float(256),
+      %decoders.4.norm2.bias : Float(256),
+      %decoders.4.norm3.weight : Float(256),
+      %decoders.4.norm3.bias : Float(256),
+      %decoders.5.self_attn.linear_q.weight : Float(256, 256),
+      %decoders.5.self_attn.linear_q.bias : Float(256),
+      %decoders.5.self_attn.linear_k.weight : Float(256, 256),
+      %decoders.5.self_attn.linear_k.bias : Float(256),
+      %decoders.5.self_attn.linear_v.weight : Float(256, 256),
+      %decoders.5.self_attn.linear_v.bias : Float(256),
+      %decoders.5.self_attn.linear_out.weight : Float(256, 256),
+      %decoders.5.self_attn.linear_out.bias : Float(256),
+      %decoders.5.src_attn.linear_q.weight : Float(256, 256),
+      %decoders.5.src_attn.linear_q.bias : Float(256),
+      %decoders.5.src_attn.linear_k.weight : Float(256, 256),
+      %decoders.5.src_attn.linear_k.bias : Float(256),
+      %decoders.5.src_attn.linear_v.weight : Float(256, 256),
+      %decoders.5.src_attn.linear_v.bias : Float(256),
+      %decoders.5.src_attn.linear_out.weight : Float(256, 256),
+      %decoders.5.src_attn.linear_out.bias : Float(256),
+      %decoders.5.feed_forward.w_1.weight : Float(2048, 256),
+      %decoders.5.feed_forward.w_1.bias : Float(2048),
+      %decoders.5.feed_forward.w_2.weight : Float(256, 2048),
+      %decoders.5.feed_forward.w_2.bias : Float(256),
+      %decoders.5.norm1.weight : Float(256),
+      %decoders.5.norm1.bias : Float(256),
+      %decoders.5.norm2.weight : Float(256),
+      %decoders.5.norm2.bias : Float(256),
+      %decoders.5.norm3.weight : Float(256),
+      %decoders.5.norm3.bias : Float(256),
+      %after_norm.weight : Float(256),
+      %after_norm.bias : Float(256),
+      %output_layer.weight : Float(6532, 256),
+      %output_layer.bias : Float(6532)):
+  %164 : Float(1, 45, 256) = onnx::Gather(%embed.0.weight, %input0), scope: Decoder/Sequential[embed]/Embedding[0] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1484:0
+  %165 : Float() = onnx::Constant[value={16}]()
+  %166 : Float(1, 45, 256) = onnx::Mul(%164, %165), scope: Decoder/Sequential[embed]/PositionalEncoding[1]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %167 : Float(1, 396, 256) = onnx::Unsqueeze[axes=[0]](%input1), scope: Decoder # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_decoder.py:141:0
+  %168 : Tensor = onnx::ReduceMean[axes=[-1]](%166), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %169 : FloatTensor = onnx::Sub(%166, %168), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %170 : Float() = onnx::Constant[value={2}]()
+  %171 : FloatTensor = onnx::Pow(%169, %170), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %172 : Tensor = onnx::ReduceMean[axes=[-1]](%171), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %173 : Float() = onnx::Constant[value={1e-12}]()
+  %174 : FloatTensor = onnx::Add(%172, %173), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %175 : Tensor = onnx::Sqrt(%174), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %176 : FloatTensor = onnx::Div(%169, %175), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %177 : FloatTensor = onnx::Mul(%176, %decoders.0.norm1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1]
+  %178 : Float(1, 45, 256) = onnx::Add(%177, %decoders.0.norm1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %179 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %180 : Tensor = onnx::Shape(%178), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %181 : Long() = onnx::Gather[axis=0](%180, %179), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %182 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.self_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %183 : Float(1, 45, 256) = onnx::MatMul(%178, %182), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %184 : Float(1, 45, 256) = onnx::Add(%183, %decoders.0.self_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %185 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %186 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %187 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %188 : Tensor = onnx::Unsqueeze[axes=[0]](%181)
+  %189 : Tensor = onnx::Unsqueeze[axes=[0]](%185)
+  %190 : Tensor = onnx::Unsqueeze[axes=[0]](%186)
+  %191 : Tensor = onnx::Unsqueeze[axes=[0]](%187)
+  %192 : Tensor = onnx::Concat[axis=0](%188, %189, %190, %191)
+  %193 : Float(1, 45, 4, 64) = onnx::Reshape(%184, %192), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %194 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.self_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %195 : Float(1, 45, 256) = onnx::MatMul(%178, %194), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %196 : Float(1, 45, 256) = onnx::Add(%195, %decoders.0.self_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %197 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %198 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %199 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %200 : Tensor = onnx::Unsqueeze[axes=[0]](%181)
+  %201 : Tensor = onnx::Unsqueeze[axes=[0]](%197)
+  %202 : Tensor = onnx::Unsqueeze[axes=[0]](%198)
+  %203 : Tensor = onnx::Unsqueeze[axes=[0]](%199)
+  %204 : Tensor = onnx::Concat[axis=0](%200, %201, %202, %203)
+  %205 : Float(1, 45, 4, 64) = onnx::Reshape(%196, %204), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %206 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.self_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %207 : Float(1, 45, 256) = onnx::MatMul(%178, %206), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %208 : Float(1, 45, 256) = onnx::Add(%207, %decoders.0.self_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %209 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %210 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %211 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %212 : Tensor = onnx::Unsqueeze[axes=[0]](%181)
+  %213 : Tensor = onnx::Unsqueeze[axes=[0]](%209)
+  %214 : Tensor = onnx::Unsqueeze[axes=[0]](%210)
+  %215 : Tensor = onnx::Unsqueeze[axes=[0]](%211)
+  %216 : Tensor = onnx::Concat[axis=0](%212, %213, %214, %215)
+  %217 : Float(1, 45, 4, 64) = onnx::Reshape(%208, %216), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %218 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%193), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %219 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%217), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %220 : Float(1, 4, 64, 45) = onnx::Transpose[perm=[0, 2, 3, 1]](%205), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %221 : Float(1, 4, 45, 45) = onnx::MatMul(%218, %220), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %222 : Float() = onnx::Constant[value={8}]()
+  %223 : Float(1, 4, 45, 45) = onnx::Div(%221, %222)
+  %224 : Float(1, 4, 45, 45) = onnx::Softmax[axis=3](%223), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %225 : Float(1, 4, 45, 64) = onnx::MatMul(%224, %219), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %226 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%225), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %227 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %228 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]
+  %229 : Tensor = onnx::Unsqueeze[axes=[0]](%181)
+  %230 : Tensor = onnx::Unsqueeze[axes=[0]](%227)
+  %231 : Tensor = onnx::Unsqueeze[axes=[0]](%228)
+  %232 : Tensor = onnx::Concat[axis=0](%229, %230, %231)
+  %233 : Float(1, 45, 256) = onnx::Reshape(%226, %232), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %234 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.self_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %235 : Float(1, 45, 256) = onnx::MatMul(%233, %234), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %236 : Float(1, 45, 256) = onnx::Add(%235, %decoders.0.self_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %237 : Float(1, 45, 256) = onnx::Add(%166, %236), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:592:0
+  %238 : Tensor = onnx::ReduceMean[axes=[-1]](%237), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %239 : FloatTensor = onnx::Sub(%237, %238), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %240 : Float() = onnx::Constant[value={2}]()
+  %241 : FloatTensor = onnx::Pow(%239, %240), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %242 : Tensor = onnx::ReduceMean[axes=[-1]](%241), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %243 : Float() = onnx::Constant[value={1e-12}]()
+  %244 : FloatTensor = onnx::Add(%242, %243), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %245 : Tensor = onnx::Sqrt(%244), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %246 : FloatTensor = onnx::Div(%239, %245), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %247 : FloatTensor = onnx::Mul(%246, %decoders.0.norm2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2]
+  %248 : Float(1, 45, 256) = onnx::Add(%247, %decoders.0.norm2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %249 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %250 : Tensor = onnx::Shape(%248), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %251 : Long() = onnx::Gather[axis=0](%250, %249), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %252 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.src_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %253 : Float(1, 45, 256) = onnx::MatMul(%248, %252), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %254 : Float(1, 45, 256) = onnx::Add(%253, %decoders.0.src_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %255 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %256 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %257 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %258 : Tensor = onnx::Unsqueeze[axes=[0]](%251)
+  %259 : Tensor = onnx::Unsqueeze[axes=[0]](%255)
+  %260 : Tensor = onnx::Unsqueeze[axes=[0]](%256)
+  %261 : Tensor = onnx::Unsqueeze[axes=[0]](%257)
+  %262 : Tensor = onnx::Concat[axis=0](%258, %259, %260, %261)
+  %263 : Float(1, 45, 4, 64) = onnx::Reshape(%254, %262), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %264 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.src_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %265 : Float(1, 396, 256) = onnx::MatMul(%167, %264), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %266 : Float(1, 396, 256) = onnx::Add(%265, %decoders.0.src_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %267 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %268 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %269 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %270 : Tensor = onnx::Unsqueeze[axes=[0]](%251)
+  %271 : Tensor = onnx::Unsqueeze[axes=[0]](%267)
+  %272 : Tensor = onnx::Unsqueeze[axes=[0]](%268)
+  %273 : Tensor = onnx::Unsqueeze[axes=[0]](%269)
+  %274 : Tensor = onnx::Concat[axis=0](%270, %271, %272, %273)
+  %275 : Float(1, 396, 4, 64) = onnx::Reshape(%266, %274), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %276 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.src_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %277 : Float(1, 396, 256) = onnx::MatMul(%167, %276), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %278 : Float(1, 396, 256) = onnx::Add(%277, %decoders.0.src_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %279 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %280 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %281 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %282 : Tensor = onnx::Unsqueeze[axes=[0]](%251)
+  %283 : Tensor = onnx::Unsqueeze[axes=[0]](%279)
+  %284 : Tensor = onnx::Unsqueeze[axes=[0]](%280)
+  %285 : Tensor = onnx::Unsqueeze[axes=[0]](%281)
+  %286 : Tensor = onnx::Concat[axis=0](%282, %283, %284, %285)
+  %287 : Float(1, 396, 4, 64) = onnx::Reshape(%278, %286), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %288 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%263), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %289 : Float(1, 4, 396, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%287), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %290 : Float(1, 4, 64, 396) = onnx::Transpose[perm=[0, 2, 3, 1]](%275), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %291 : Float(1, 4, 45, 396) = onnx::MatMul(%288, %290), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %292 : Float() = onnx::Constant[value={8}]()
+  %293 : Float(1, 4, 45, 396) = onnx::Div(%291, %292)
+  %294 : Float(1, 4, 45, 396) = onnx::Softmax[axis=3](%293), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %295 : Float(1, 4, 45, 64) = onnx::MatMul(%294, %289), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %296 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%295), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %297 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %298 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]
+  %299 : Tensor = onnx::Unsqueeze[axes=[0]](%251)
+  %300 : Tensor = onnx::Unsqueeze[axes=[0]](%297)
+  %301 : Tensor = onnx::Unsqueeze[axes=[0]](%298)
+  %302 : Tensor = onnx::Concat[axis=0](%299, %300, %301)
+  %303 : Float(1, 45, 256) = onnx::Reshape(%296, %302), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %304 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.src_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %305 : Float(1, 45, 256) = onnx::MatMul(%303, %304), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %306 : Float(1, 45, 256) = onnx::Add(%305, %decoders.0.src_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %307 : Float(1, 45, 256) = onnx::Add(%237, %306), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:605:0
+  %308 : Tensor = onnx::ReduceMean[axes=[-1]](%307), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %309 : FloatTensor = onnx::Sub(%307, %308), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %310 : Float() = onnx::Constant[value={2}]()
+  %311 : FloatTensor = onnx::Pow(%309, %310), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %312 : Tensor = onnx::ReduceMean[axes=[-1]](%311), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %313 : Float() = onnx::Constant[value={1e-12}]()
+  %314 : FloatTensor = onnx::Add(%312, %313), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %315 : Tensor = onnx::Sqrt(%314), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %316 : FloatTensor = onnx::Div(%309, %315), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %317 : FloatTensor = onnx::Mul(%316, %decoders.0.norm3.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3]
+  %318 : Float(1, 45, 256) = onnx::Add(%317, %decoders.0.norm3.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/LayerNorm[norm3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %319 : Float(256, 2048) = onnx::Transpose[perm=[1, 0]](%decoders.0.feed_forward.w_1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %320 : Float(1, 45, 2048) = onnx::MatMul(%318, %319), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %321 : Float(1, 45, 2048) = onnx::Add(%320, %decoders.0.feed_forward.w_1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %322 : Float(1, 45, 2048) = onnx::Relu(%321), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/PositionwiseFeedForward[feed_forward]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %323 : Float(2048, 256) = onnx::Transpose[perm=[1, 0]](%decoders.0.feed_forward.w_2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %324 : Float(1, 45, 256) = onnx::MatMul(%322, %323), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %325 : Float(1, 45, 256) = onnx::Add(%324, %decoders.0.feed_forward.w_2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %326 : Float(1, 45, 256) = onnx::Add(%307, %325), scope: Decoder/MultiSequential[decoders]/DecoderLayer[0] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:612:0
+  %327 : Tensor = onnx::ReduceMean[axes=[-1]](%326), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %328 : FloatTensor = onnx::Sub(%326, %327), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %329 : Float() = onnx::Constant[value={2}]()
+  %330 : FloatTensor = onnx::Pow(%328, %329), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %331 : Tensor = onnx::ReduceMean[axes=[-1]](%330), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %332 : Float() = onnx::Constant[value={1e-12}]()
+  %333 : FloatTensor = onnx::Add(%331, %332), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %334 : Tensor = onnx::Sqrt(%333), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %335 : FloatTensor = onnx::Div(%328, %334), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %336 : FloatTensor = onnx::Mul(%335, %decoders.1.norm1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1]
+  %337 : Float(1, 45, 256) = onnx::Add(%336, %decoders.1.norm1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %338 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %339 : Tensor = onnx::Shape(%337), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %340 : Long() = onnx::Gather[axis=0](%339, %338), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %341 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.self_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %342 : Float(1, 45, 256) = onnx::MatMul(%337, %341), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %343 : Float(1, 45, 256) = onnx::Add(%342, %decoders.1.self_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %344 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %345 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %346 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %347 : Tensor = onnx::Unsqueeze[axes=[0]](%340)
+  %348 : Tensor = onnx::Unsqueeze[axes=[0]](%344)
+  %349 : Tensor = onnx::Unsqueeze[axes=[0]](%345)
+  %350 : Tensor = onnx::Unsqueeze[axes=[0]](%346)
+  %351 : Tensor = onnx::Concat[axis=0](%347, %348, %349, %350)
+  %352 : Float(1, 45, 4, 64) = onnx::Reshape(%343, %351), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %353 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.self_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %354 : Float(1, 45, 256) = onnx::MatMul(%337, %353), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %355 : Float(1, 45, 256) = onnx::Add(%354, %decoders.1.self_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %356 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %357 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %358 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %359 : Tensor = onnx::Unsqueeze[axes=[0]](%340)
+  %360 : Tensor = onnx::Unsqueeze[axes=[0]](%356)
+  %361 : Tensor = onnx::Unsqueeze[axes=[0]](%357)
+  %362 : Tensor = onnx::Unsqueeze[axes=[0]](%358)
+  %363 : Tensor = onnx::Concat[axis=0](%359, %360, %361, %362)
+  %364 : Float(1, 45, 4, 64) = onnx::Reshape(%355, %363), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %365 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.self_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %366 : Float(1, 45, 256) = onnx::MatMul(%337, %365), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %367 : Float(1, 45, 256) = onnx::Add(%366, %decoders.1.self_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %368 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %369 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %370 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %371 : Tensor = onnx::Unsqueeze[axes=[0]](%340)
+  %372 : Tensor = onnx::Unsqueeze[axes=[0]](%368)
+  %373 : Tensor = onnx::Unsqueeze[axes=[0]](%369)
+  %374 : Tensor = onnx::Unsqueeze[axes=[0]](%370)
+  %375 : Tensor = onnx::Concat[axis=0](%371, %372, %373, %374)
+  %376 : Float(1, 45, 4, 64) = onnx::Reshape(%367, %375), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %377 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%352), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %378 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%376), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %379 : Float(1, 4, 64, 45) = onnx::Transpose[perm=[0, 2, 3, 1]](%364), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %380 : Float(1, 4, 45, 45) = onnx::MatMul(%377, %379), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %381 : Float() = onnx::Constant[value={8}]()
+  %382 : Float(1, 4, 45, 45) = onnx::Div(%380, %381)
+  %383 : Float(1, 4, 45, 45) = onnx::Softmax[axis=3](%382), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %384 : Float(1, 4, 45, 64) = onnx::MatMul(%383, %378), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %385 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%384), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %386 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %387 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]
+  %388 : Tensor = onnx::Unsqueeze[axes=[0]](%340)
+  %389 : Tensor = onnx::Unsqueeze[axes=[0]](%386)
+  %390 : Tensor = onnx::Unsqueeze[axes=[0]](%387)
+  %391 : Tensor = onnx::Concat[axis=0](%388, %389, %390)
+  %392 : Float(1, 45, 256) = onnx::Reshape(%385, %391), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %393 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.self_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %394 : Float(1, 45, 256) = onnx::MatMul(%392, %393), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %395 : Float(1, 45, 256) = onnx::Add(%394, %decoders.1.self_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %396 : Float(1, 45, 256) = onnx::Add(%326, %395), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:592:0
+  %397 : Tensor = onnx::ReduceMean[axes=[-1]](%396), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %398 : FloatTensor = onnx::Sub(%396, %397), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %399 : Float() = onnx::Constant[value={2}]()
+  %400 : FloatTensor = onnx::Pow(%398, %399), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %401 : Tensor = onnx::ReduceMean[axes=[-1]](%400), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %402 : Float() = onnx::Constant[value={1e-12}]()
+  %403 : FloatTensor = onnx::Add(%401, %402), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %404 : Tensor = onnx::Sqrt(%403), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %405 : FloatTensor = onnx::Div(%398, %404), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %406 : FloatTensor = onnx::Mul(%405, %decoders.1.norm2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2]
+  %407 : Float(1, 45, 256) = onnx::Add(%406, %decoders.1.norm2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %408 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %409 : Tensor = onnx::Shape(%407), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %410 : Long() = onnx::Gather[axis=0](%409, %408), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %411 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.src_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %412 : Float(1, 45, 256) = onnx::MatMul(%407, %411), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %413 : Float(1, 45, 256) = onnx::Add(%412, %decoders.1.src_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %414 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %415 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %416 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %417 : Tensor = onnx::Unsqueeze[axes=[0]](%410)
+  %418 : Tensor = onnx::Unsqueeze[axes=[0]](%414)
+  %419 : Tensor = onnx::Unsqueeze[axes=[0]](%415)
+  %420 : Tensor = onnx::Unsqueeze[axes=[0]](%416)
+  %421 : Tensor = onnx::Concat[axis=0](%417, %418, %419, %420)
+  %422 : Float(1, 45, 4, 64) = onnx::Reshape(%413, %421), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %423 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.src_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %424 : Float(1, 396, 256) = onnx::MatMul(%167, %423), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %425 : Float(1, 396, 256) = onnx::Add(%424, %decoders.1.src_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %426 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %427 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %428 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %429 : Tensor = onnx::Unsqueeze[axes=[0]](%410)
+  %430 : Tensor = onnx::Unsqueeze[axes=[0]](%426)
+  %431 : Tensor = onnx::Unsqueeze[axes=[0]](%427)
+  %432 : Tensor = onnx::Unsqueeze[axes=[0]](%428)
+  %433 : Tensor = onnx::Concat[axis=0](%429, %430, %431, %432)
+  %434 : Float(1, 396, 4, 64) = onnx::Reshape(%425, %433), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %435 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.src_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %436 : Float(1, 396, 256) = onnx::MatMul(%167, %435), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %437 : Float(1, 396, 256) = onnx::Add(%436, %decoders.1.src_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %438 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %439 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %440 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %441 : Tensor = onnx::Unsqueeze[axes=[0]](%410)
+  %442 : Tensor = onnx::Unsqueeze[axes=[0]](%438)
+  %443 : Tensor = onnx::Unsqueeze[axes=[0]](%439)
+  %444 : Tensor = onnx::Unsqueeze[axes=[0]](%440)
+  %445 : Tensor = onnx::Concat[axis=0](%441, %442, %443, %444)
+  %446 : Float(1, 396, 4, 64) = onnx::Reshape(%437, %445), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %447 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%422), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %448 : Float(1, 4, 396, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%446), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %449 : Float(1, 4, 64, 396) = onnx::Transpose[perm=[0, 2, 3, 1]](%434), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %450 : Float(1, 4, 45, 396) = onnx::MatMul(%447, %449), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %451 : Float() = onnx::Constant[value={8}]()
+  %452 : Float(1, 4, 45, 396) = onnx::Div(%450, %451)
+  %453 : Float(1, 4, 45, 396) = onnx::Softmax[axis=3](%452), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %454 : Float(1, 4, 45, 64) = onnx::MatMul(%453, %448), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %455 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%454), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %456 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %457 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]
+  %458 : Tensor = onnx::Unsqueeze[axes=[0]](%410)
+  %459 : Tensor = onnx::Unsqueeze[axes=[0]](%456)
+  %460 : Tensor = onnx::Unsqueeze[axes=[0]](%457)
+  %461 : Tensor = onnx::Concat[axis=0](%458, %459, %460)
+  %462 : Float(1, 45, 256) = onnx::Reshape(%455, %461), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %463 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.src_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %464 : Float(1, 45, 256) = onnx::MatMul(%462, %463), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %465 : Float(1, 45, 256) = onnx::Add(%464, %decoders.1.src_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %466 : Float(1, 45, 256) = onnx::Add(%396, %465), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:605:0
+  %467 : Tensor = onnx::ReduceMean[axes=[-1]](%466), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %468 : FloatTensor = onnx::Sub(%466, %467), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %469 : Float() = onnx::Constant[value={2}]()
+  %470 : FloatTensor = onnx::Pow(%468, %469), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %471 : Tensor = onnx::ReduceMean[axes=[-1]](%470), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %472 : Float() = onnx::Constant[value={1e-12}]()
+  %473 : FloatTensor = onnx::Add(%471, %472), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %474 : Tensor = onnx::Sqrt(%473), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %475 : FloatTensor = onnx::Div(%468, %474), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %476 : FloatTensor = onnx::Mul(%475, %decoders.1.norm3.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3]
+  %477 : Float(1, 45, 256) = onnx::Add(%476, %decoders.1.norm3.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/LayerNorm[norm3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %478 : Float(256, 2048) = onnx::Transpose[perm=[1, 0]](%decoders.1.feed_forward.w_1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %479 : Float(1, 45, 2048) = onnx::MatMul(%477, %478), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %480 : Float(1, 45, 2048) = onnx::Add(%479, %decoders.1.feed_forward.w_1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %481 : Float(1, 45, 2048) = onnx::Relu(%480), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/PositionwiseFeedForward[feed_forward]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %482 : Float(2048, 256) = onnx::Transpose[perm=[1, 0]](%decoders.1.feed_forward.w_2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %483 : Float(1, 45, 256) = onnx::MatMul(%481, %482), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %484 : Float(1, 45, 256) = onnx::Add(%483, %decoders.1.feed_forward.w_2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %485 : Float(1, 45, 256) = onnx::Add(%466, %484), scope: Decoder/MultiSequential[decoders]/DecoderLayer[1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:612:0
+  %486 : Tensor = onnx::ReduceMean[axes=[-1]](%485), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %487 : FloatTensor = onnx::Sub(%485, %486), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %488 : Float() = onnx::Constant[value={2}]()
+  %489 : FloatTensor = onnx::Pow(%487, %488), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %490 : Tensor = onnx::ReduceMean[axes=[-1]](%489), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %491 : Float() = onnx::Constant[value={1e-12}]()
+  %492 : FloatTensor = onnx::Add(%490, %491), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %493 : Tensor = onnx::Sqrt(%492), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %494 : FloatTensor = onnx::Div(%487, %493), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %495 : FloatTensor = onnx::Mul(%494, %decoders.2.norm1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1]
+  %496 : Float(1, 45, 256) = onnx::Add(%495, %decoders.2.norm1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %497 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %498 : Tensor = onnx::Shape(%496), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %499 : Long() = onnx::Gather[axis=0](%498, %497), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %500 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.self_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %501 : Float(1, 45, 256) = onnx::MatMul(%496, %500), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %502 : Float(1, 45, 256) = onnx::Add(%501, %decoders.2.self_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %503 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %504 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %505 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %506 : Tensor = onnx::Unsqueeze[axes=[0]](%499)
+  %507 : Tensor = onnx::Unsqueeze[axes=[0]](%503)
+  %508 : Tensor = onnx::Unsqueeze[axes=[0]](%504)
+  %509 : Tensor = onnx::Unsqueeze[axes=[0]](%505)
+  %510 : Tensor = onnx::Concat[axis=0](%506, %507, %508, %509)
+  %511 : Float(1, 45, 4, 64) = onnx::Reshape(%502, %510), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %512 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.self_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %513 : Float(1, 45, 256) = onnx::MatMul(%496, %512), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %514 : Float(1, 45, 256) = onnx::Add(%513, %decoders.2.self_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %515 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %516 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %517 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %518 : Tensor = onnx::Unsqueeze[axes=[0]](%499)
+  %519 : Tensor = onnx::Unsqueeze[axes=[0]](%515)
+  %520 : Tensor = onnx::Unsqueeze[axes=[0]](%516)
+  %521 : Tensor = onnx::Unsqueeze[axes=[0]](%517)
+  %522 : Tensor = onnx::Concat[axis=0](%518, %519, %520, %521)
+  %523 : Float(1, 45, 4, 64) = onnx::Reshape(%514, %522), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %524 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.self_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %525 : Float(1, 45, 256) = onnx::MatMul(%496, %524), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %526 : Float(1, 45, 256) = onnx::Add(%525, %decoders.2.self_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %527 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %528 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %529 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %530 : Tensor = onnx::Unsqueeze[axes=[0]](%499)
+  %531 : Tensor = onnx::Unsqueeze[axes=[0]](%527)
+  %532 : Tensor = onnx::Unsqueeze[axes=[0]](%528)
+  %533 : Tensor = onnx::Unsqueeze[axes=[0]](%529)
+  %534 : Tensor = onnx::Concat[axis=0](%530, %531, %532, %533)
+  %535 : Float(1, 45, 4, 64) = onnx::Reshape(%526, %534), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %536 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%511), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %537 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%535), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %538 : Float(1, 4, 64, 45) = onnx::Transpose[perm=[0, 2, 3, 1]](%523), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %539 : Float(1, 4, 45, 45) = onnx::MatMul(%536, %538), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %540 : Float() = onnx::Constant[value={8}]()
+  %541 : Float(1, 4, 45, 45) = onnx::Div(%539, %540)
+  %542 : Float(1, 4, 45, 45) = onnx::Softmax[axis=3](%541), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %543 : Float(1, 4, 45, 64) = onnx::MatMul(%542, %537), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %544 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%543), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %545 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %546 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]
+  %547 : Tensor = onnx::Unsqueeze[axes=[0]](%499)
+  %548 : Tensor = onnx::Unsqueeze[axes=[0]](%545)
+  %549 : Tensor = onnx::Unsqueeze[axes=[0]](%546)
+  %550 : Tensor = onnx::Concat[axis=0](%547, %548, %549)
+  %551 : Float(1, 45, 256) = onnx::Reshape(%544, %550), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %552 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.self_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %553 : Float(1, 45, 256) = onnx::MatMul(%551, %552), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %554 : Float(1, 45, 256) = onnx::Add(%553, %decoders.2.self_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %555 : Float(1, 45, 256) = onnx::Add(%485, %554), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:592:0
+  %556 : Tensor = onnx::ReduceMean[axes=[-1]](%555), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %557 : FloatTensor = onnx::Sub(%555, %556), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %558 : Float() = onnx::Constant[value={2}]()
+  %559 : FloatTensor = onnx::Pow(%557, %558), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %560 : Tensor = onnx::ReduceMean[axes=[-1]](%559), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %561 : Float() = onnx::Constant[value={1e-12}]()
+  %562 : FloatTensor = onnx::Add(%560, %561), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %563 : Tensor = onnx::Sqrt(%562), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %564 : FloatTensor = onnx::Div(%557, %563), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %565 : FloatTensor = onnx::Mul(%564, %decoders.2.norm2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2]
+  %566 : Float(1, 45, 256) = onnx::Add(%565, %decoders.2.norm2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %567 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %568 : Tensor = onnx::Shape(%566), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %569 : Long() = onnx::Gather[axis=0](%568, %567), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %570 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.src_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %571 : Float(1, 45, 256) = onnx::MatMul(%566, %570), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %572 : Float(1, 45, 256) = onnx::Add(%571, %decoders.2.src_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %573 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %574 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %575 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %576 : Tensor = onnx::Unsqueeze[axes=[0]](%569)
+  %577 : Tensor = onnx::Unsqueeze[axes=[0]](%573)
+  %578 : Tensor = onnx::Unsqueeze[axes=[0]](%574)
+  %579 : Tensor = onnx::Unsqueeze[axes=[0]](%575)
+  %580 : Tensor = onnx::Concat[axis=0](%576, %577, %578, %579)
+  %581 : Float(1, 45, 4, 64) = onnx::Reshape(%572, %580), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %582 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.src_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %583 : Float(1, 396, 256) = onnx::MatMul(%167, %582), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %584 : Float(1, 396, 256) = onnx::Add(%583, %decoders.2.src_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %585 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %586 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %587 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %588 : Tensor = onnx::Unsqueeze[axes=[0]](%569)
+  %589 : Tensor = onnx::Unsqueeze[axes=[0]](%585)
+  %590 : Tensor = onnx::Unsqueeze[axes=[0]](%586)
+  %591 : Tensor = onnx::Unsqueeze[axes=[0]](%587)
+  %592 : Tensor = onnx::Concat[axis=0](%588, %589, %590, %591)
+  %593 : Float(1, 396, 4, 64) = onnx::Reshape(%584, %592), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %594 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.src_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %595 : Float(1, 396, 256) = onnx::MatMul(%167, %594), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %596 : Float(1, 396, 256) = onnx::Add(%595, %decoders.2.src_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %597 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %598 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %599 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %600 : Tensor = onnx::Unsqueeze[axes=[0]](%569)
+  %601 : Tensor = onnx::Unsqueeze[axes=[0]](%597)
+  %602 : Tensor = onnx::Unsqueeze[axes=[0]](%598)
+  %603 : Tensor = onnx::Unsqueeze[axes=[0]](%599)
+  %604 : Tensor = onnx::Concat[axis=0](%600, %601, %602, %603)
+  %605 : Float(1, 396, 4, 64) = onnx::Reshape(%596, %604), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %606 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%581), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %607 : Float(1, 4, 396, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%605), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %608 : Float(1, 4, 64, 396) = onnx::Transpose[perm=[0, 2, 3, 1]](%593), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %609 : Float(1, 4, 45, 396) = onnx::MatMul(%606, %608), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %610 : Float() = onnx::Constant[value={8}]()
+  %611 : Float(1, 4, 45, 396) = onnx::Div(%609, %610)
+  %612 : Float(1, 4, 45, 396) = onnx::Softmax[axis=3](%611), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %613 : Float(1, 4, 45, 64) = onnx::MatMul(%612, %607), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %614 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%613), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %615 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %616 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]
+  %617 : Tensor = onnx::Unsqueeze[axes=[0]](%569)
+  %618 : Tensor = onnx::Unsqueeze[axes=[0]](%615)
+  %619 : Tensor = onnx::Unsqueeze[axes=[0]](%616)
+  %620 : Tensor = onnx::Concat[axis=0](%617, %618, %619)
+  %621 : Float(1, 45, 256) = onnx::Reshape(%614, %620), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %622 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.src_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %623 : Float(1, 45, 256) = onnx::MatMul(%621, %622), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %624 : Float(1, 45, 256) = onnx::Add(%623, %decoders.2.src_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %625 : Float(1, 45, 256) = onnx::Add(%555, %624), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:605:0
+  %626 : Tensor = onnx::ReduceMean[axes=[-1]](%625), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %627 : FloatTensor = onnx::Sub(%625, %626), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %628 : Float() = onnx::Constant[value={2}]()
+  %629 : FloatTensor = onnx::Pow(%627, %628), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %630 : Tensor = onnx::ReduceMean[axes=[-1]](%629), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %631 : Float() = onnx::Constant[value={1e-12}]()
+  %632 : FloatTensor = onnx::Add(%630, %631), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %633 : Tensor = onnx::Sqrt(%632), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %634 : FloatTensor = onnx::Div(%627, %633), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %635 : FloatTensor = onnx::Mul(%634, %decoders.2.norm3.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3]
+  %636 : Float(1, 45, 256) = onnx::Add(%635, %decoders.2.norm3.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/LayerNorm[norm3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %637 : Float(256, 2048) = onnx::Transpose[perm=[1, 0]](%decoders.2.feed_forward.w_1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %638 : Float(1, 45, 2048) = onnx::MatMul(%636, %637), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %639 : Float(1, 45, 2048) = onnx::Add(%638, %decoders.2.feed_forward.w_1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %640 : Float(1, 45, 2048) = onnx::Relu(%639), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/PositionwiseFeedForward[feed_forward]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %641 : Float(2048, 256) = onnx::Transpose[perm=[1, 0]](%decoders.2.feed_forward.w_2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %642 : Float(1, 45, 256) = onnx::MatMul(%640, %641), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %643 : Float(1, 45, 256) = onnx::Add(%642, %decoders.2.feed_forward.w_2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %644 : Float(1, 45, 256) = onnx::Add(%625, %643), scope: Decoder/MultiSequential[decoders]/DecoderLayer[2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:612:0
+  %645 : Tensor = onnx::ReduceMean[axes=[-1]](%644), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %646 : FloatTensor = onnx::Sub(%644, %645), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %647 : Float() = onnx::Constant[value={2}]()
+  %648 : FloatTensor = onnx::Pow(%646, %647), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %649 : Tensor = onnx::ReduceMean[axes=[-1]](%648), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %650 : Float() = onnx::Constant[value={1e-12}]()
+  %651 : FloatTensor = onnx::Add(%649, %650), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %652 : Tensor = onnx::Sqrt(%651), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %653 : FloatTensor = onnx::Div(%646, %652), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %654 : FloatTensor = onnx::Mul(%653, %decoders.3.norm1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1]
+  %655 : Float(1, 45, 256) = onnx::Add(%654, %decoders.3.norm1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %656 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %657 : Tensor = onnx::Shape(%655), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %658 : Long() = onnx::Gather[axis=0](%657, %656), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %659 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.self_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %660 : Float(1, 45, 256) = onnx::MatMul(%655, %659), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %661 : Float(1, 45, 256) = onnx::Add(%660, %decoders.3.self_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %662 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %663 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %664 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %665 : Tensor = onnx::Unsqueeze[axes=[0]](%658)
+  %666 : Tensor = onnx::Unsqueeze[axes=[0]](%662)
+  %667 : Tensor = onnx::Unsqueeze[axes=[0]](%663)
+  %668 : Tensor = onnx::Unsqueeze[axes=[0]](%664)
+  %669 : Tensor = onnx::Concat[axis=0](%665, %666, %667, %668)
+  %670 : Float(1, 45, 4, 64) = onnx::Reshape(%661, %669), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %671 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.self_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %672 : Float(1, 45, 256) = onnx::MatMul(%655, %671), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %673 : Float(1, 45, 256) = onnx::Add(%672, %decoders.3.self_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %674 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %675 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %676 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %677 : Tensor = onnx::Unsqueeze[axes=[0]](%658)
+  %678 : Tensor = onnx::Unsqueeze[axes=[0]](%674)
+  %679 : Tensor = onnx::Unsqueeze[axes=[0]](%675)
+  %680 : Tensor = onnx::Unsqueeze[axes=[0]](%676)
+  %681 : Tensor = onnx::Concat[axis=0](%677, %678, %679, %680)
+  %682 : Float(1, 45, 4, 64) = onnx::Reshape(%673, %681), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %683 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.self_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %684 : Float(1, 45, 256) = onnx::MatMul(%655, %683), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %685 : Float(1, 45, 256) = onnx::Add(%684, %decoders.3.self_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %686 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %687 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %688 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %689 : Tensor = onnx::Unsqueeze[axes=[0]](%658)
+  %690 : Tensor = onnx::Unsqueeze[axes=[0]](%686)
+  %691 : Tensor = onnx::Unsqueeze[axes=[0]](%687)
+  %692 : Tensor = onnx::Unsqueeze[axes=[0]](%688)
+  %693 : Tensor = onnx::Concat[axis=0](%689, %690, %691, %692)
+  %694 : Float(1, 45, 4, 64) = onnx::Reshape(%685, %693), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %695 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%670), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %696 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%694), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %697 : Float(1, 4, 64, 45) = onnx::Transpose[perm=[0, 2, 3, 1]](%682), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %698 : Float(1, 4, 45, 45) = onnx::MatMul(%695, %697), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %699 : Float() = onnx::Constant[value={8}]()
+  %700 : Float(1, 4, 45, 45) = onnx::Div(%698, %699)
+  %701 : Float(1, 4, 45, 45) = onnx::Softmax[axis=3](%700), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %702 : Float(1, 4, 45, 64) = onnx::MatMul(%701, %696), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %703 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%702), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %704 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %705 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]
+  %706 : Tensor = onnx::Unsqueeze[axes=[0]](%658)
+  %707 : Tensor = onnx::Unsqueeze[axes=[0]](%704)
+  %708 : Tensor = onnx::Unsqueeze[axes=[0]](%705)
+  %709 : Tensor = onnx::Concat[axis=0](%706, %707, %708)
+  %710 : Float(1, 45, 256) = onnx::Reshape(%703, %709), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %711 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.self_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %712 : Float(1, 45, 256) = onnx::MatMul(%710, %711), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %713 : Float(1, 45, 256) = onnx::Add(%712, %decoders.3.self_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %714 : Float(1, 45, 256) = onnx::Add(%644, %713), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:592:0
+  %715 : Tensor = onnx::ReduceMean[axes=[-1]](%714), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %716 : FloatTensor = onnx::Sub(%714, %715), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %717 : Float() = onnx::Constant[value={2}]()
+  %718 : FloatTensor = onnx::Pow(%716, %717), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %719 : Tensor = onnx::ReduceMean[axes=[-1]](%718), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %720 : Float() = onnx::Constant[value={1e-12}]()
+  %721 : FloatTensor = onnx::Add(%719, %720), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %722 : Tensor = onnx::Sqrt(%721), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %723 : FloatTensor = onnx::Div(%716, %722), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %724 : FloatTensor = onnx::Mul(%723, %decoders.3.norm2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2]
+  %725 : Float(1, 45, 256) = onnx::Add(%724, %decoders.3.norm2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %726 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %727 : Tensor = onnx::Shape(%725), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %728 : Long() = onnx::Gather[axis=0](%727, %726), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %729 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.src_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %730 : Float(1, 45, 256) = onnx::MatMul(%725, %729), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %731 : Float(1, 45, 256) = onnx::Add(%730, %decoders.3.src_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %732 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %733 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %734 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %735 : Tensor = onnx::Unsqueeze[axes=[0]](%728)
+  %736 : Tensor = onnx::Unsqueeze[axes=[0]](%732)
+  %737 : Tensor = onnx::Unsqueeze[axes=[0]](%733)
+  %738 : Tensor = onnx::Unsqueeze[axes=[0]](%734)
+  %739 : Tensor = onnx::Concat[axis=0](%735, %736, %737, %738)
+  %740 : Float(1, 45, 4, 64) = onnx::Reshape(%731, %739), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %741 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.src_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %742 : Float(1, 396, 256) = onnx::MatMul(%167, %741), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %743 : Float(1, 396, 256) = onnx::Add(%742, %decoders.3.src_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %744 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %745 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %746 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %747 : Tensor = onnx::Unsqueeze[axes=[0]](%728)
+  %748 : Tensor = onnx::Unsqueeze[axes=[0]](%744)
+  %749 : Tensor = onnx::Unsqueeze[axes=[0]](%745)
+  %750 : Tensor = onnx::Unsqueeze[axes=[0]](%746)
+  %751 : Tensor = onnx::Concat[axis=0](%747, %748, %749, %750)
+  %752 : Float(1, 396, 4, 64) = onnx::Reshape(%743, %751), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %753 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.src_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %754 : Float(1, 396, 256) = onnx::MatMul(%167, %753), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %755 : Float(1, 396, 256) = onnx::Add(%754, %decoders.3.src_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %756 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %757 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %758 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %759 : Tensor = onnx::Unsqueeze[axes=[0]](%728)
+  %760 : Tensor = onnx::Unsqueeze[axes=[0]](%756)
+  %761 : Tensor = onnx::Unsqueeze[axes=[0]](%757)
+  %762 : Tensor = onnx::Unsqueeze[axes=[0]](%758)
+  %763 : Tensor = onnx::Concat[axis=0](%759, %760, %761, %762)
+  %764 : Float(1, 396, 4, 64) = onnx::Reshape(%755, %763), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %765 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%740), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %766 : Float(1, 4, 396, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%764), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %767 : Float(1, 4, 64, 396) = onnx::Transpose[perm=[0, 2, 3, 1]](%752), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %768 : Float(1, 4, 45, 396) = onnx::MatMul(%765, %767), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %769 : Float() = onnx::Constant[value={8}]()
+  %770 : Float(1, 4, 45, 396) = onnx::Div(%768, %769)
+  %771 : Float(1, 4, 45, 396) = onnx::Softmax[axis=3](%770), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %772 : Float(1, 4, 45, 64) = onnx::MatMul(%771, %766), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %773 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%772), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %774 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %775 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]
+  %776 : Tensor = onnx::Unsqueeze[axes=[0]](%728)
+  %777 : Tensor = onnx::Unsqueeze[axes=[0]](%774)
+  %778 : Tensor = onnx::Unsqueeze[axes=[0]](%775)
+  %779 : Tensor = onnx::Concat[axis=0](%776, %777, %778)
+  %780 : Float(1, 45, 256) = onnx::Reshape(%773, %779), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %781 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.src_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %782 : Float(1, 45, 256) = onnx::MatMul(%780, %781), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %783 : Float(1, 45, 256) = onnx::Add(%782, %decoders.3.src_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %784 : Float(1, 45, 256) = onnx::Add(%714, %783), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:605:0
+  %785 : Tensor = onnx::ReduceMean[axes=[-1]](%784), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %786 : FloatTensor = onnx::Sub(%784, %785), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %787 : Float() = onnx::Constant[value={2}]()
+  %788 : FloatTensor = onnx::Pow(%786, %787), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %789 : Tensor = onnx::ReduceMean[axes=[-1]](%788), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %790 : Float() = onnx::Constant[value={1e-12}]()
+  %791 : FloatTensor = onnx::Add(%789, %790), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %792 : Tensor = onnx::Sqrt(%791), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %793 : FloatTensor = onnx::Div(%786, %792), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %794 : FloatTensor = onnx::Mul(%793, %decoders.3.norm3.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3]
+  %795 : Float(1, 45, 256) = onnx::Add(%794, %decoders.3.norm3.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/LayerNorm[norm3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %796 : Float(256, 2048) = onnx::Transpose[perm=[1, 0]](%decoders.3.feed_forward.w_1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %797 : Float(1, 45, 2048) = onnx::MatMul(%795, %796), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %798 : Float(1, 45, 2048) = onnx::Add(%797, %decoders.3.feed_forward.w_1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %799 : Float(1, 45, 2048) = onnx::Relu(%798), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/PositionwiseFeedForward[feed_forward]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %800 : Float(2048, 256) = onnx::Transpose[perm=[1, 0]](%decoders.3.feed_forward.w_2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %801 : Float(1, 45, 256) = onnx::MatMul(%799, %800), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %802 : Float(1, 45, 256) = onnx::Add(%801, %decoders.3.feed_forward.w_2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %803 : Float(1, 45, 256) = onnx::Add(%784, %802), scope: Decoder/MultiSequential[decoders]/DecoderLayer[3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:612:0
+  %804 : Tensor = onnx::ReduceMean[axes=[-1]](%803), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %805 : FloatTensor = onnx::Sub(%803, %804), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %806 : Float() = onnx::Constant[value={2}]()
+  %807 : FloatTensor = onnx::Pow(%805, %806), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %808 : Tensor = onnx::ReduceMean[axes=[-1]](%807), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %809 : Float() = onnx::Constant[value={1e-12}]()
+  %810 : FloatTensor = onnx::Add(%808, %809), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %811 : Tensor = onnx::Sqrt(%810), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %812 : FloatTensor = onnx::Div(%805, %811), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %813 : FloatTensor = onnx::Mul(%812, %decoders.4.norm1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1]
+  %814 : Float(1, 45, 256) = onnx::Add(%813, %decoders.4.norm1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %815 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %816 : Tensor = onnx::Shape(%814), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %817 : Long() = onnx::Gather[axis=0](%816, %815), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %818 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.self_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %819 : Float(1, 45, 256) = onnx::MatMul(%814, %818), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %820 : Float(1, 45, 256) = onnx::Add(%819, %decoders.4.self_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %821 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %822 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %823 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %824 : Tensor = onnx::Unsqueeze[axes=[0]](%817)
+  %825 : Tensor = onnx::Unsqueeze[axes=[0]](%821)
+  %826 : Tensor = onnx::Unsqueeze[axes=[0]](%822)
+  %827 : Tensor = onnx::Unsqueeze[axes=[0]](%823)
+  %828 : Tensor = onnx::Concat[axis=0](%824, %825, %826, %827)
+  %829 : Float(1, 45, 4, 64) = onnx::Reshape(%820, %828), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %830 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.self_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %831 : Float(1, 45, 256) = onnx::MatMul(%814, %830), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %832 : Float(1, 45, 256) = onnx::Add(%831, %decoders.4.self_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %833 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %834 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %835 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %836 : Tensor = onnx::Unsqueeze[axes=[0]](%817)
+  %837 : Tensor = onnx::Unsqueeze[axes=[0]](%833)
+  %838 : Tensor = onnx::Unsqueeze[axes=[0]](%834)
+  %839 : Tensor = onnx::Unsqueeze[axes=[0]](%835)
+  %840 : Tensor = onnx::Concat[axis=0](%836, %837, %838, %839)
+  %841 : Float(1, 45, 4, 64) = onnx::Reshape(%832, %840), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %842 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.self_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %843 : Float(1, 45, 256) = onnx::MatMul(%814, %842), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %844 : Float(1, 45, 256) = onnx::Add(%843, %decoders.4.self_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %845 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %846 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %847 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %848 : Tensor = onnx::Unsqueeze[axes=[0]](%817)
+  %849 : Tensor = onnx::Unsqueeze[axes=[0]](%845)
+  %850 : Tensor = onnx::Unsqueeze[axes=[0]](%846)
+  %851 : Tensor = onnx::Unsqueeze[axes=[0]](%847)
+  %852 : Tensor = onnx::Concat[axis=0](%848, %849, %850, %851)
+  %853 : Float(1, 45, 4, 64) = onnx::Reshape(%844, %852), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %854 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%829), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %855 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%853), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %856 : Float(1, 4, 64, 45) = onnx::Transpose[perm=[0, 2, 3, 1]](%841), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %857 : Float(1, 4, 45, 45) = onnx::MatMul(%854, %856), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %858 : Float() = onnx::Constant[value={8}]()
+  %859 : Float(1, 4, 45, 45) = onnx::Div(%857, %858)
+  %860 : Float(1, 4, 45, 45) = onnx::Softmax[axis=3](%859), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %861 : Float(1, 4, 45, 64) = onnx::MatMul(%860, %855), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %862 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%861), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %863 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %864 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]
+  %865 : Tensor = onnx::Unsqueeze[axes=[0]](%817)
+  %866 : Tensor = onnx::Unsqueeze[axes=[0]](%863)
+  %867 : Tensor = onnx::Unsqueeze[axes=[0]](%864)
+  %868 : Tensor = onnx::Concat[axis=0](%865, %866, %867)
+  %869 : Float(1, 45, 256) = onnx::Reshape(%862, %868), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %870 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.self_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %871 : Float(1, 45, 256) = onnx::MatMul(%869, %870), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %872 : Float(1, 45, 256) = onnx::Add(%871, %decoders.4.self_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %873 : Float(1, 45, 256) = onnx::Add(%803, %872), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:592:0
+  %874 : Tensor = onnx::ReduceMean[axes=[-1]](%873), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %875 : FloatTensor = onnx::Sub(%873, %874), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %876 : Float() = onnx::Constant[value={2}]()
+  %877 : FloatTensor = onnx::Pow(%875, %876), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %878 : Tensor = onnx::ReduceMean[axes=[-1]](%877), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %879 : Float() = onnx::Constant[value={1e-12}]()
+  %880 : FloatTensor = onnx::Add(%878, %879), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %881 : Tensor = onnx::Sqrt(%880), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %882 : FloatTensor = onnx::Div(%875, %881), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %883 : FloatTensor = onnx::Mul(%882, %decoders.4.norm2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2]
+  %884 : Float(1, 45, 256) = onnx::Add(%883, %decoders.4.norm2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %885 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %886 : Tensor = onnx::Shape(%884), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %887 : Long() = onnx::Gather[axis=0](%886, %885), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %888 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.src_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %889 : Float(1, 45, 256) = onnx::MatMul(%884, %888), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %890 : Float(1, 45, 256) = onnx::Add(%889, %decoders.4.src_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %891 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %892 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %893 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %894 : Tensor = onnx::Unsqueeze[axes=[0]](%887)
+  %895 : Tensor = onnx::Unsqueeze[axes=[0]](%891)
+  %896 : Tensor = onnx::Unsqueeze[axes=[0]](%892)
+  %897 : Tensor = onnx::Unsqueeze[axes=[0]](%893)
+  %898 : Tensor = onnx::Concat[axis=0](%894, %895, %896, %897)
+  %899 : Float(1, 45, 4, 64) = onnx::Reshape(%890, %898), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %900 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.src_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %901 : Float(1, 396, 256) = onnx::MatMul(%167, %900), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %902 : Float(1, 396, 256) = onnx::Add(%901, %decoders.4.src_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %903 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %904 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %905 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %906 : Tensor = onnx::Unsqueeze[axes=[0]](%887)
+  %907 : Tensor = onnx::Unsqueeze[axes=[0]](%903)
+  %908 : Tensor = onnx::Unsqueeze[axes=[0]](%904)
+  %909 : Tensor = onnx::Unsqueeze[axes=[0]](%905)
+  %910 : Tensor = onnx::Concat[axis=0](%906, %907, %908, %909)
+  %911 : Float(1, 396, 4, 64) = onnx::Reshape(%902, %910), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %912 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.src_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %913 : Float(1, 396, 256) = onnx::MatMul(%167, %912), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %914 : Float(1, 396, 256) = onnx::Add(%913, %decoders.4.src_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %915 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %916 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %917 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %918 : Tensor = onnx::Unsqueeze[axes=[0]](%887)
+  %919 : Tensor = onnx::Unsqueeze[axes=[0]](%915)
+  %920 : Tensor = onnx::Unsqueeze[axes=[0]](%916)
+  %921 : Tensor = onnx::Unsqueeze[axes=[0]](%917)
+  %922 : Tensor = onnx::Concat[axis=0](%918, %919, %920, %921)
+  %923 : Float(1, 396, 4, 64) = onnx::Reshape(%914, %922), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %924 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%899), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %925 : Float(1, 4, 396, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%923), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %926 : Float(1, 4, 64, 396) = onnx::Transpose[perm=[0, 2, 3, 1]](%911), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %927 : Float(1, 4, 45, 396) = onnx::MatMul(%924, %926), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %928 : Float() = onnx::Constant[value={8}]()
+  %929 : Float(1, 4, 45, 396) = onnx::Div(%927, %928)
+  %930 : Float(1, 4, 45, 396) = onnx::Softmax[axis=3](%929), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %931 : Float(1, 4, 45, 64) = onnx::MatMul(%930, %925), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %932 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%931), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %933 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %934 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]
+  %935 : Tensor = onnx::Unsqueeze[axes=[0]](%887)
+  %936 : Tensor = onnx::Unsqueeze[axes=[0]](%933)
+  %937 : Tensor = onnx::Unsqueeze[axes=[0]](%934)
+  %938 : Tensor = onnx::Concat[axis=0](%935, %936, %937)
+  %939 : Float(1, 45, 256) = onnx::Reshape(%932, %938), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %940 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.src_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %941 : Float(1, 45, 256) = onnx::MatMul(%939, %940), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %942 : Float(1, 45, 256) = onnx::Add(%941, %decoders.4.src_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %943 : Float(1, 45, 256) = onnx::Add(%873, %942), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:605:0
+  %944 : Tensor = onnx::ReduceMean[axes=[-1]](%943), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %945 : FloatTensor = onnx::Sub(%943, %944), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %946 : Float() = onnx::Constant[value={2}]()
+  %947 : FloatTensor = onnx::Pow(%945, %946), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %948 : Tensor = onnx::ReduceMean[axes=[-1]](%947), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %949 : Float() = onnx::Constant[value={1e-12}]()
+  %950 : FloatTensor = onnx::Add(%948, %949), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %951 : Tensor = onnx::Sqrt(%950), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %952 : FloatTensor = onnx::Div(%945, %951), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %953 : FloatTensor = onnx::Mul(%952, %decoders.4.norm3.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3]
+  %954 : Float(1, 45, 256) = onnx::Add(%953, %decoders.4.norm3.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/LayerNorm[norm3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %955 : Float(256, 2048) = onnx::Transpose[perm=[1, 0]](%decoders.4.feed_forward.w_1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %956 : Float(1, 45, 2048) = onnx::MatMul(%954, %955), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %957 : Float(1, 45, 2048) = onnx::Add(%956, %decoders.4.feed_forward.w_1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %958 : Float(1, 45, 2048) = onnx::Relu(%957), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/PositionwiseFeedForward[feed_forward]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %959 : Float(2048, 256) = onnx::Transpose[perm=[1, 0]](%decoders.4.feed_forward.w_2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %960 : Float(1, 45, 256) = onnx::MatMul(%958, %959), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %961 : Float(1, 45, 256) = onnx::Add(%960, %decoders.4.feed_forward.w_2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %962 : Float(1, 45, 256) = onnx::Add(%943, %961), scope: Decoder/MultiSequential[decoders]/DecoderLayer[4] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:612:0
+  %963 : Tensor = onnx::ReduceMean[axes=[-1]](%962), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %964 : FloatTensor = onnx::Sub(%962, %963), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %965 : Float() = onnx::Constant[value={2}]()
+  %966 : FloatTensor = onnx::Pow(%964, %965), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %967 : Tensor = onnx::ReduceMean[axes=[-1]](%966), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %968 : Float() = onnx::Constant[value={1e-12}]()
+  %969 : FloatTensor = onnx::Add(%967, %968), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %970 : Tensor = onnx::Sqrt(%969), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %971 : FloatTensor = onnx::Div(%964, %970), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %972 : FloatTensor = onnx::Mul(%971, %decoders.5.norm1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1]
+  %973 : Float(1, 45, 256) = onnx::Add(%972, %decoders.5.norm1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %974 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %975 : Tensor = onnx::Shape(%973), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %976 : Long() = onnx::Gather[axis=0](%975, %974), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %977 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.self_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %978 : Float(1, 45, 256) = onnx::MatMul(%973, %977), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %979 : Float(1, 45, 256) = onnx::Add(%978, %decoders.5.self_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %980 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %981 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %982 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %983 : Tensor = onnx::Unsqueeze[axes=[0]](%976)
+  %984 : Tensor = onnx::Unsqueeze[axes=[0]](%980)
+  %985 : Tensor = onnx::Unsqueeze[axes=[0]](%981)
+  %986 : Tensor = onnx::Unsqueeze[axes=[0]](%982)
+  %987 : Tensor = onnx::Concat[axis=0](%983, %984, %985, %986)
+  %988 : Float(1, 45, 4, 64) = onnx::Reshape(%979, %987), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %989 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.self_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %990 : Float(1, 45, 256) = onnx::MatMul(%973, %989), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %991 : Float(1, 45, 256) = onnx::Add(%990, %decoders.5.self_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %992 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %993 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %994 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %995 : Tensor = onnx::Unsqueeze[axes=[0]](%976)
+  %996 : Tensor = onnx::Unsqueeze[axes=[0]](%992)
+  %997 : Tensor = onnx::Unsqueeze[axes=[0]](%993)
+  %998 : Tensor = onnx::Unsqueeze[axes=[0]](%994)
+  %999 : Tensor = onnx::Concat[axis=0](%995, %996, %997, %998)
+  %1000 : Float(1, 45, 4, 64) = onnx::Reshape(%991, %999), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %1001 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.self_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1002 : Float(1, 45, 256) = onnx::MatMul(%973, %1001), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1003 : Float(1, 45, 256) = onnx::Add(%1002, %decoders.5.self_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %1004 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %1005 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %1006 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %1007 : Tensor = onnx::Unsqueeze[axes=[0]](%976)
+  %1008 : Tensor = onnx::Unsqueeze[axes=[0]](%1004)
+  %1009 : Tensor = onnx::Unsqueeze[axes=[0]](%1005)
+  %1010 : Tensor = onnx::Unsqueeze[axes=[0]](%1006)
+  %1011 : Tensor = onnx::Concat[axis=0](%1007, %1008, %1009, %1010)
+  %1012 : Float(1, 45, 4, 64) = onnx::Reshape(%1003, %1011), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %1013 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%988), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %1014 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%1012), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %1015 : Float(1, 4, 64, 45) = onnx::Transpose[perm=[0, 2, 3, 1]](%1000), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %1016 : Float(1, 4, 45, 45) = onnx::MatMul(%1013, %1015), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %1017 : Float() = onnx::Constant[value={8}]()
+  %1018 : Float(1, 4, 45, 45) = onnx::Div(%1016, %1017)
+  %1019 : Float(1, 4, 45, 45) = onnx::Softmax[axis=3](%1018), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %1020 : Float(1, 4, 45, 64) = onnx::MatMul(%1019, %1014), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %1021 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%1020), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %1022 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %1023 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]
+  %1024 : Tensor = onnx::Unsqueeze[axes=[0]](%976)
+  %1025 : Tensor = onnx::Unsqueeze[axes=[0]](%1022)
+  %1026 : Tensor = onnx::Unsqueeze[axes=[0]](%1023)
+  %1027 : Tensor = onnx::Concat[axis=0](%1024, %1025, %1026)
+  %1028 : Float(1, 45, 256) = onnx::Reshape(%1021, %1027), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %1029 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.self_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1030 : Float(1, 45, 256) = onnx::MatMul(%1028, %1029), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[self_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1031 : Float(1, 45, 256) = onnx::Add(%1030, %decoders.5.self_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %1032 : Float(1, 45, 256) = onnx::Add(%962, %1031), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:592:0
+  %1033 : Tensor = onnx::ReduceMean[axes=[-1]](%1032), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1034 : FloatTensor = onnx::Sub(%1032, %1033), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1035 : Float() = onnx::Constant[value={2}]()
+  %1036 : FloatTensor = onnx::Pow(%1034, %1035), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1037 : Tensor = onnx::ReduceMean[axes=[-1]](%1036), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1038 : Float() = onnx::Constant[value={1e-12}]()
+  %1039 : FloatTensor = onnx::Add(%1037, %1038), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1040 : Tensor = onnx::Sqrt(%1039), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1041 : FloatTensor = onnx::Div(%1034, %1040), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1042 : FloatTensor = onnx::Mul(%1041, %decoders.5.norm2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2]
+  %1043 : Float(1, 45, 256) = onnx::Add(%1042, %decoders.5.norm2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %1044 : Long() = onnx::Constant[value={0}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1045 : Tensor = onnx::Shape(%1043), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1046 : Long() = onnx::Gather[axis=0](%1045, %1044), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:420:0
+  %1047 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.src_attn.linear_q.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1048 : Float(1, 45, 256) = onnx::MatMul(%1043, %1047), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1049 : Float(1, 45, 256) = onnx::Add(%1048, %decoders.5.src_attn.linear_q.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_q] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %1050 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1051 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1052 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1053 : Tensor = onnx::Unsqueeze[axes=[0]](%1046)
+  %1054 : Tensor = onnx::Unsqueeze[axes=[0]](%1050)
+  %1055 : Tensor = onnx::Unsqueeze[axes=[0]](%1051)
+  %1056 : Tensor = onnx::Unsqueeze[axes=[0]](%1052)
+  %1057 : Tensor = onnx::Concat[axis=0](%1053, %1054, %1055, %1056)
+  %1058 : Float(1, 45, 4, 64) = onnx::Reshape(%1049, %1057), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:425:0
+  %1059 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.src_attn.linear_k.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1060 : Float(1, 396, 256) = onnx::MatMul(%167, %1059), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1061 : Float(1, 396, 256) = onnx::Add(%1060, %decoders.5.src_attn.linear_k.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_k] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %1062 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1063 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1064 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1065 : Tensor = onnx::Unsqueeze[axes=[0]](%1046)
+  %1066 : Tensor = onnx::Unsqueeze[axes=[0]](%1062)
+  %1067 : Tensor = onnx::Unsqueeze[axes=[0]](%1063)
+  %1068 : Tensor = onnx::Unsqueeze[axes=[0]](%1064)
+  %1069 : Tensor = onnx::Concat[axis=0](%1065, %1066, %1067, %1068)
+  %1070 : Float(1, 396, 4, 64) = onnx::Reshape(%1061, %1069), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:426:0
+  %1071 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.src_attn.linear_v.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1072 : Float(1, 396, 256) = onnx::MatMul(%167, %1071), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1073 : Float(1, 396, 256) = onnx::Add(%1072, %decoders.5.src_attn.linear_v.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_v] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %1074 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1075 : Long() = onnx::Constant[value={4}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1076 : Long() = onnx::Constant[value={64}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1077 : Tensor = onnx::Unsqueeze[axes=[0]](%1046)
+  %1078 : Tensor = onnx::Unsqueeze[axes=[0]](%1074)
+  %1079 : Tensor = onnx::Unsqueeze[axes=[0]](%1075)
+  %1080 : Tensor = onnx::Unsqueeze[axes=[0]](%1076)
+  %1081 : Tensor = onnx::Concat[axis=0](%1077, %1078, %1079, %1080)
+  %1082 : Float(1, 396, 4, 64) = onnx::Reshape(%1073, %1081), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:427:0
+  %1083 : Float(1, 4, 45, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%1058), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:428:0
+  %1084 : Float(1, 4, 396, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%1082), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:430:0
+  %1085 : Float(1, 4, 64, 396) = onnx::Transpose[perm=[0, 2, 3, 1]](%1070), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %1086 : Float(1, 4, 45, 396) = onnx::MatMul(%1083, %1085), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:432:0
+  %1087 : Float() = onnx::Constant[value={8}]()
+  %1088 : Float(1, 4, 45, 396) = onnx::Div(%1086, %1087)
+  %1089 : Float(1, 4, 45, 396) = onnx::Softmax[axis=3](%1088), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %1090 : Float(1, 4, 45, 64) = onnx::MatMul(%1089, %1084), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:442:0
+  %1091 : Float(1, 45, 4, 64) = onnx::Transpose[perm=[0, 2, 1, 3]](%1090), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %1092 : Long() = onnx::Constant[value={-1}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1093 : Long() = onnx::Constant[value={256}](), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]
+  %1094 : Tensor = onnx::Unsqueeze[axes=[0]](%1046)
+  %1095 : Tensor = onnx::Unsqueeze[axes=[0]](%1092)
+  %1096 : Tensor = onnx::Unsqueeze[axes=[0]](%1093)
+  %1097 : Tensor = onnx::Concat[axis=0](%1094, %1095, %1096)
+  %1098 : Float(1, 45, 256) = onnx::Reshape(%1091, %1097), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:443:0
+  %1099 : Float(256, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.src_attn.linear_out.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1100 : Float(1, 45, 256) = onnx::MatMul(%1098, %1099), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/MultiHeadedAttention[src_attn]/Linear[linear_out] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1101 : Float(1, 45, 256) = onnx::Add(%1100, %decoders.5.src_attn.linear_out.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %1102 : Float(1, 45, 256) = onnx::Add(%1032, %1101), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5] # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_part.py:605:0
+  %1103 : Tensor = onnx::ReduceMean[axes=[-1]](%1102), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1104 : FloatTensor = onnx::Sub(%1102, %1103), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1105 : Float() = onnx::Constant[value={2}]()
+  %1106 : FloatTensor = onnx::Pow(%1104, %1105), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1107 : Tensor = onnx::ReduceMean[axes=[-1]](%1106), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1108 : Float() = onnx::Constant[value={1e-12}]()
+  %1109 : FloatTensor = onnx::Add(%1107, %1108), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1110 : Tensor = onnx::Sqrt(%1109), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1111 : FloatTensor = onnx::Div(%1104, %1110), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1112 : FloatTensor = onnx::Mul(%1111, %decoders.5.norm3.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3]
+  %1113 : Float(1, 45, 256) = onnx::Add(%1112, %decoders.5.norm3.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/LayerNorm[norm3] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %1114 : Float(256, 2048) = onnx::Transpose[perm=[1, 0]](%decoders.5.feed_forward.w_1.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1115 : Float(1, 45, 2048) = onnx::MatMul(%1113, %1114), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1116 : Float(1, 45, 2048) = onnx::Add(%1115, %decoders.5.feed_forward.w_1.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/PositionwiseFeedForward[feed_forward]/Linear[w_1] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1374:0
+  %1117 : Float(1, 45, 2048) = onnx::Relu(%1116), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/PositionwiseFeedForward[feed_forward]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %1118 : Float(2048, 256) = onnx::Transpose[perm=[1, 0]](%decoders.5.feed_forward.w_2.weight), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1119 : Float(1, 45, 256) = onnx::MatMul(%1117, %1118), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/PositionwiseFeedForward[feed_forward]/Linear[w_2] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1372:0
+  %1120 : Float(1, 45, 256) = onnx::Add(%1119, %decoders.5.feed_forward.w_2.bias), scope: Decoder/MultiSequential[decoders]/DecoderLayer[5]/Dropout[dropout] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:807:0
+  %1121 : Float(1, 45, 256) = onnx::Add(%1102, %1120), scope: Decoder # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_decoder.py:144:0
+  %1122 : Long() = onnx::Constant[value={-1}](), scope: Decoder
+  %1123 : Float(1, 256) = onnx::Gather[axis=1](%1121, %1122), scope: Decoder # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_decoder.py:144:0
+  %1124 : Tensor = onnx::ReduceMean[axes=[-1]](%1123), scope: Decoder/LayerNorm[after_norm]
+  %1125 : FloatTensor = onnx::Sub(%1123, %1124), scope: Decoder/LayerNorm[after_norm]
+  %1126 : Float() = onnx::Constant[value={2}]()
+  %1127 : FloatTensor = onnx::Pow(%1125, %1126), scope: Decoder/LayerNorm[after_norm]
+  %1128 : Tensor = onnx::ReduceMean[axes=[-1]](%1127), scope: Decoder/LayerNorm[after_norm]
+  %1129 : Float() = onnx::Constant[value={1e-12}]()
+  %1130 : FloatTensor = onnx::Add(%1128, %1129), scope: Decoder/LayerNorm[after_norm]
+  %1131 : Tensor = onnx::Sqrt(%1130), scope: Decoder/LayerNorm[after_norm]
+  %1132 : FloatTensor = onnx::Div(%1125, %1131), scope: Decoder/LayerNorm[after_norm]
+  %1133 : FloatTensor = onnx::Mul(%1132, %after_norm.weight), scope: Decoder/LayerNorm[after_norm]
+  %1134 : Float(1, 256) = onnx::Add(%1133, %after_norm.bias), scope: Decoder/LayerNorm[after_norm] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1696:0
+  %1135 : Float(1, 6532) = onnx::Gemm[alpha=1, beta=1, transB=1](%1134, %output_layer.weight, %output_layer.bias), scope: Decoder/Linear[output_layer] # /home/work/test/work/asr_online/asr-audio-model/output.ori/bin/des/python_env.torch.1.3/lib/python3.6/site-packages/torch/nn/functional.py:1370:0
+  %1136 : Float(1, 6532) = onnx::LogSoftmax[axis=1](%1135), scope: Decoder # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_decoder.py:150:0
+  %output : Float(6532) = onnx::Squeeze[axes=[0]](%1136), scope: Decoder # /home/work/test/work/asr_online/asr-audio-model/output.ori/models/model_decoder.py:150:0
+  return (%output)
+
